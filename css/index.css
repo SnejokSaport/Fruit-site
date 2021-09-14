@@ -1,5 +1,12 @@
+@import 'font-face.css';
+@import 'body.css';
 @import 'title.css';
 @import 'header.css';
 @import 'navbar.css';
 @import 'saitbar.css';
 @import 'card.css';
+@import 'logo.css';
+@import 'search.css';
+@import 'fruits.css';
+@import 'btn.css';
+@import 'link.css';
