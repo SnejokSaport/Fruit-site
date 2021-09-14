@@ -7,5 +7,46 @@
     text-decoration: none;
     color: #fff;
     padding: 0px 12px;
-
+}
+.link_user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link_user::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+}
+.link_user::before {
+    background-image: url(/img/title/user.svg);
+}
+.link_basket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link_basket::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+}
+.link_basket::before {
+    background-image: url(/img/title/shopping.svg);
+}
+.link_favorite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link_favorite::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+}
+.link_favorite::before {
+    background-image: url(/img/title/favorite.svg);
 }

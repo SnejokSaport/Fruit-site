@@ -1,4 +1,9 @@
 .logo {
+    display: flex;
+    align-items: center;
     font-family: "Roboto";
     color: #fff;
+}
+.logo_img {
+    height: 50px;
 }
